@@ -49,5 +49,6 @@ int main()
     BinarySearch(arr, size, element);
     int search = BinarySearch(arr, size, element);
     printf("The Element %d was found at index %d \n", element, search);
+    printf("");
     return 0;
 }
